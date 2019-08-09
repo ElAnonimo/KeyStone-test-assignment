@@ -1,0 +1,10 @@
+.PageEntries-comment {
+    text-align: left;
+    text-transform: uppercase;
+    font-style: italic;
+    color: gray;
+}
+
+.PageEntries-totals {
+    margin-top: 10px;
+}

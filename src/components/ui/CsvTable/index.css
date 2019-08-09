@@ -1,0 +1,11 @@
+.UICsvTable-actions {
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.UICsvTable-action-item {
+    margin-left: 10px;
+}

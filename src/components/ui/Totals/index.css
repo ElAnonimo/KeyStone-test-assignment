@@ -1,0 +1,13 @@
+.UITotals-row {
+    display: flex;
+    font-size: 18px;
+}
+
+.UITotals-total-value {
+    font-weight: bold;
+}
+
+.UITotals-total-title:after {
+    content: ":";
+    margin-right: 5px;
+}

@@ -1,0 +1,34 @@
+.UITable .ReactTable {
+    font-size: 16px;
+}
+
+.UITable .ReactTable .rt-thead {
+    font-weight: bold;
+}
+
+.UITable .ReactTable .rt-tbody {
+    max-height: 164px;
+    -ms-overflow-style: none;
+    overflow-y: -moz-scrollbars-none;
+    overflow-y: overlay;
+}
+
+.UITable .ReactTable .rt-thead .rt-th {
+    box-shadow: none !important;
+    position: relative;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.UITable .ReactTable .rt-thead .rt-th.-sort-asc:after, .UITable .ReactTable .rt-thead .rt-th.-sort-desc:after {
+    content: '▲';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    line-height: 28px;
+}
+
+.UITable .ReactTable .rt-thead .rt-th.-sort-desc:after {
+    transform: rotate(180deg);
+}
